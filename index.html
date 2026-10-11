@@ -66,6 +66,8 @@
 
   a.dark { background:var(--card); color:var(--text); border:1px solid var(--line); }
   a.dark .ic { background:rgba(239,224,196,.10); color:var(--cream); }
+  .divider { display:flex; align-items:center; gap:12px; margin:14px 0 2px; color:var(--cream-dark); font-size:15px; }
+  .divider::before, .divider::after { content:""; flex:1; height:1px; background:var(--line); }
 </style>
 </head>
 <body>
@@ -86,7 +88,22 @@
     </a>
     <a class="btn dark" href="follow.html">
       <span class="ic">⭐</span>
-      <span>قيّمنا وتابعنا<small>قيّم تجربتك وتابع حساباتنا</small></span>
+      <span>قيّمنا<small>اختر النجوم واكتب ملاحظاتك</small></span>
+    </a>
+
+    <div class="divider">تابعنا</div>
+
+    <a class="btn dark" href="https://www.instagram.com/lucacafe22" target="_blank" rel="noopener">
+      <span class="ic">📷</span>
+      <span>إنستغرام<small dir="ltr" style="text-align:right">@lucacafe22</small></span>
+    </a>
+    <a class="btn dark" href="https://www.facebook.com/share/19cCdWJYgr/?mibextid=wwXIfr" target="_blank" rel="noopener">
+      <span class="ic">f</span>
+      <span>فيسبوك<small>صفحتنا الرسمية</small></span>
+    </a>
+    <a class="btn dark" href="https://whatsapp.com/channel/0029Vb99yyjCcW4qhmYHJz0B" target="_blank" rel="noopener">
+      <span class="ic">💬</span>
+      <span>قناة واتساب<small>تابع أخبارنا وعروضنا</small></span>
     </a>
   </div>
 </div>
